@@ -77,7 +77,7 @@ class User (Resource):
 		return user, 201
 
 				
-	def deleter(self, name):
+	def delete(self, name):
 		""" the delete method is used to delete user that is no longer relevant. 
 		By specifying users as a variable in global scope, we update the users list using list comprehension to create a list without the name specified (simulating delete)."""
 	
